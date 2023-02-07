@@ -33,6 +33,25 @@ body {
     text-transform: uppercase;
 }
 
+@media screen and (max-width: 767px) {
+    .theme-button {
+        line-height: 44px;
+        padding: 0px 20px;
+    }
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #dc4f72;
+    border-color: #dc4f72;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #dc4f72;
+    border-color: #dc4f72;
+}
+
 .btn-outline-primary {
     color: #dc4f72;
     border-color: #dc4f72;
@@ -96,77 +115,77 @@ p {
 
 /* Light Mode */
 #myBody {
-  background-color: white;
+    background-color: white;
 }
 
 #switchButton {
-  background-color: white;
+    background-color: white;
 }
 
 #switchButton .fa-sun {
-  display: none;
+    display: none;
 }
 
 #switchButton .fa-moon {
-  display: block;
+    display: block;
 }
 
 /* Dark Mode */
 .dark#myBody {
-  background-color: white;
+    background-color: white;
 }
 
 .dark #switchButton {
-  background-color: black;
+    background-color: black;
 }
 
 .dark #switchButton .fa-sun {
-  display: block;
-  color: white;
+    display: block;
+    color: white;
 }
 
 .dark #switchButton .fa-moon {
-  display: none;
+    display: none;
 }
 
 .dark header {
-  background-color: black;
-  color: white;
+    background-color: black;
+    color: white;
 }
 
 .dark .navbar-expand-lg .navbar-nav .nav-link {
-  color: white;
+    color: white;
 }
 
 .dark .wcu {
-  background-color: black;
-  color: white;
+    background-color: black;
+    color: white;
 }
 
 .dark .wcu .s-block {
-  background: #afafaf;
+    background: #afafaf;
 }
 
 .dark .header-section h3 {
-  color: white;
+    color: white;
 }
 
 .dark .about {
-  background-color: #222;
-  color: white;
+    background-color: #222;
+    color: white;
 }
 
 .dark .about .book-info h3 {
-  color: white;
+    color: white;
 }
 
 .dark .succeed {
-  background-color: #222;
-  color: white;
+    background-color: #222;
+    color: white;
 }
 
 .dark .succeed .stats_info {
-  background-color: #afafaf;
+    background-color: #afafaf;
 }
 
 /* HEADER */
@@ -483,11 +502,9 @@ nav ul li a:hover {
 
 .commit .new-block {
     background-size: cover;
-    background-image: linear-gradient(
-            to right,
+    background-image: linear-gradient(to right,
             rgba(0, 0, 0, 0.7),
-            rgba(0, 0, 0, 0.33)
-        ),
+            rgba(0, 0, 0, 0.33)),
         url(../img/bg.jpg);
     background-repeat: no-repeat, no-repeat, no-repeat;
     background-position: center;
